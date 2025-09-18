@@ -1,0 +1,68 @@
+#buttons{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+#resetDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetBtn{
+    margin-top: 125px;
+    background-color: hsl(0, 100%, 60%);
+    color: white;
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+#resetBtn:hover{
+    background-color: hsl(0, 100%, 40%);
+
+}
+
+#gameDisplay{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-left: 25%;
+}
+
+#title{
+    text-align: center;
+    font-family: "Press Start 2P", "Verdana";
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.gameCells{
+    cursor: pointer;
+    width: 13rem;
+    height: 13rem;
+    font-size: 4rem;
+}
+
+#winnerToast{
+    text-align: center;
+    font-family: "Press Start 2P", "Verdana";
+    padding-top: 20px;
+
+}
+
+.win{
+    color: #00ff00;
+}
+
+.lose{
+    color: rgb(255, 153, 0);
+}
